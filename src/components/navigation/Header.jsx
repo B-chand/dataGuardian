@@ -29,6 +29,17 @@ const Header = ({ timeRange, onTimeRangeChange }) => {
       path: '/audit-timeline-view',
       icon: 'Clock'
     }
+    ,
+    {
+      label: 'Admin Portal',
+      path: '/admin-portal',
+      icon: 'User'
+    },
+    {
+      label: 'Candidate Portal',
+      path: '/candidate-portal',
+      icon: 'Users'
+    }
   ];
 
   const isActive = (path) => location?.pathname === path;
